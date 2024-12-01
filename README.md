@@ -17,7 +17,6 @@ KWIKESITE is a Telegram bot designed to help small business owners create websit
 
 - Node.js
 - Express.js
-- Prisma
 - Gemini AI API
 - Axios
 - Cloudinary
