@@ -51,7 +51,6 @@ KWIKESITE is a Telegram bot designed to help small business owners create websit
    Create a `.env` file in the root directory and add the following variables:
 
    ```env
-   DATABASE_URL="your_database_url"
    MY_TOKEN="your_telegram_bot_token"
    GEMINI_API_KEY="your_gemini_api_key"
    GEMINI_API_URL="https://generativelanguage.googleapis.com/v1beta"
@@ -60,26 +59,20 @@ KWIKESITE is a Telegram bot designed to help small business owners create websit
    CLOUDINARY_URL="your_cloudinary_url"
    ```
 
-4. **Run Prisma migrations**
-
-   ```sh
-   npx prisma migrate dev
-   ```
-
-5. **Start the server**
+4. **Start the server**
 
    ```sh
    npm run dev
    ```
 
-6. **Set up Telegram webhook**
+5. **Set up Telegram webhook**
    Replace `your_ngrok_url` with your actual ngrok URL:
 
    ```sh
    curl -F "url=https://your_ngrok_url" https://api.telegram.org/bot${MY_TOKEN}/setWebhook
    ```
 
-7. **Run Tests**
+6. **Run Tests**
    To run the tests using Jest, use the following command:
 
    ```sh
@@ -96,7 +89,6 @@ KWIKESITE is a Telegram bot designed to help small business owners create websit
 
 ## Acknowledgements
 
-- [Prisma](https://www.prisma.io/)
 - [Axios](https://axios-http.com/)
 - [Cloudinary](https://cloudinary.com/)
 - [GitHub API](https://docs.github.com/en/rest)
