@@ -27,6 +27,12 @@ KWIKESITE is a Telegram bot designed to help small business owners create websit
 
 - This is the project pitch deck [pitch deck](https://www.canva.com/design/DAGX17naNgA/YNiwVj_wpHYQIqvK1qYnRA/view?utm_content=DAGX17naNgA&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
+### Screenshots of the project
+
+![IMG-20241202-WA0015](https://github.com/user-attachments/assets/341c0758-abd6-48f2-96b2-8ee7a69c8b8a)
+![IMG-20241202-WA0016](https://github.com/user-attachments/assets/2d0177b2-35fe-41b4-9dd4-fef50db861fe)
+![IMG-20241202-WA0017](https://github.com/user-attachments/assets/6fe27c6a-82d0-4254-935b-d951838d34b9)
+
 ## Requirements/Prerequisites
 
 - Node.js (v14 or higher)
